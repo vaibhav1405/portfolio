@@ -57,19 +57,19 @@ export const NAV_LINKS = [
   },
   {
     id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    title: "Download Resume",
+    link: "/resume.pdf", // Updated to your GitHub
   },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "MERN Stack Developer",
     icon: mobile,
   },
   {
@@ -77,7 +77,7 @@ export const SERVICES = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI Integration Specialist",
     icon: creator,
   },
 ] as const;
@@ -125,99 +125,100 @@ export const TECHNOLOGIES = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ] as const;
 
-// Experiences
+// Experiences (Reversed)
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Freelance Full Stack Developer",
+    company_name: "Self-Employed",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered the VerseWalkers project as a full-stack developer, implementing scalable architecture solutions.",
+      "Built a 3D virtual lab for pharmacy clients using Blender and Three.js for interactive scientific demonstrations.",
+      "Specialized in MERN stack development with focus on performance optimization and user experience.",
+      "Integrated AI technologies including OpenAI, Groq, and Gemini API for enhanced application functionality.",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company_name: "Quadfi Inc",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "September 2022 - September 2024",
+    points: [
+      "Led a team of developers, overseeing project delivery for key fintech solutions that leveraged AI and scalable architectures.",
+      "Enhanced client experience and reduced processing times by 30% through innovative AI integration.",
+      "Designed and implemented a proprietary loan algorithm for fintech products, integrating third-party APIs.",
+      "Oversaw the end-to-end software development lifecycle (SDLC) using agile methodologies.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Ongraph Technologies",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "June 2021 - August 2022",
+    points: [
+      "Performed as a full-stack developer, managing frontend and backend development across multiple web applications.",
+      "Delivered high-performance user interfaces and backend services using modern web technologies.",
+      "Optimised codebase by reducing redundancies and implementing best practices, resulting in 20% improvement in application efficiency.",
+      "Enhanced performance through strategic code optimization and modern development methodologies.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "Device Doctor Pvt Ltd",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "January 2021 - June 2021",
+    points: [
+      "Engineered robust REST APIs for backend systems, facilitating efficient data management and reliable server-client communication.",
+      "Enhanced overall data flow and system resilience through optimized API architecture.",
+      "Conducted rigorous testing and debugging to bolster backend reliability, achieving a 15% reduction in system errors.",
+      "Boosted operational efficiency through comprehensive quality assurance practices.",
     ],
   },
 ] as const;
+
 
 // Testimonials
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Vaibhav's expertise in full-stack development and AI integration transformed our fintech platform beyond expectations.",
+    name: "Mehdi Gaffari",
+    designation: "CTO",
+    company: "Quadfi Inc",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "The 3D virtual lab Vaibhav created for our pharmacy demonstrations was innovative and exceeded all our requirements.",
+    name: "Ankit Sharma",
+    designation: "Founder",
+    company: "VerseWalkers",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Vaibhav's technical leadership and problem-solving skills significantly improved our development efficiency and code quality.",
+    name: "Priya Sharma",
+    designation: "Product Manager",
+    company: "Ongraph Technologies",
     image: user3,
   },
 ] as const;
@@ -225,78 +226,12 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Quadfi Lending Platform",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "A scalable lending platform built on MERN stack with AI-driven loan processing, reducing manual intervention by 30% and improving operational efficiency by 25%.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -304,79 +239,144 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ai-integration",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://quadfi.com/",
+    live_site_link: "https://quadfi.com/",
+  },
+  {
+    name: "Universal Credit System",
+    description:
+      "International credit scoring system enabling accurate financial assessments for global clients using advanced data processing algorithms and MERN stack technology.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project2,
+    source_code_link: "https://quadfi.com/",
+    live_site_link: "https://quadfi.com/",
+  },
+  {
+    name: "VerseWalkers",
+    description:
+      "A comprehensive full-stack application with scalable architecture, featuring modern web technologies and optimized performance for enhanced user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "https://versewalkers.com/",
+    live_site_link: "https://versewalkers.com/",
+  },
+  {
+    name: "3D Virtual Pharmacy Lab",
+    description:
+      "Interactive 3D virtual laboratory for pharmaceutical demonstrations built with Blender and Three.js, enabling immersive scientific learning experiences.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "blender",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "https://github.com/vaibhavdadhich/3d-pharmacy-lab",
+    live_site_link: "https://3d-pharmacy-lab.netlify.app/",
   },
   {
-    name: "Cryptoverse",
+    name: "Quadfi Orange AI",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "Advanced application management system with robust backend APIs and OpenAI integration, providing intelligent automation and enhanced functionality.",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://quadfi.com/",
+    live_site_link: "https://quadfi.com/",
   },
   {
-    name: "Travel Advisor",
+    name: "Parcel Import/Export Platform",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "Node.js and EJS-based parcel management platform for 9 to 5 Import, enhancing data processing efficiency and user engagement for import/export tracking.",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "ejs",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://9-5import.com/",
+    live_site_link: "https://9-5import.com/",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
-  {
-    name: "Linkedin",
+    name: "LinkedIn",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://www.linkedin.com/in/vaibhav27", // Updated to your LinkedIn
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/vaibhav1405", // Updated to your GitHub
+  },
+  {
+    name: "Twitter",
+    icon: twitter,
+    link: "https://twitter.com/vaib0x", // You can update this to your actual Twitter
   },
 ] as const;

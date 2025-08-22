@@ -10,7 +10,8 @@ export const Tech = () => {
         {/* Iterate over each technology */}
         {TECHNOLOGIES.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain" />
+            {/* <BallCanvas icon={technology.icon} /> */}
           </div>
         ))}
       </div>
