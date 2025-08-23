@@ -58,7 +58,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Download Resume",
-    link: "/resume.pdf", // Updated to your GitHub
+    link: "/vaibhav.pdf", // Updated to your GitHub
   },
 ] as const;
 
